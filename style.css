@@ -1,0 +1,50 @@
+.container{
+    background-color: #868997;
+    ;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video propaganda"
+                "video sugestao";
+                grid-template-columns: 1fr 270px;
+                grid-template-rows: 56px 1fr;
+                gap: 20px;
+                padding: 30px;
+}
+
+.video{
+    grid-area: video;
+}
+
+.propaganda{
+    grid-area: propaganda;
+}
+
+.sugestao{
+    grid-area: sugestao;
+}
+
+.img{
+    display: flex;
+    gap: 10px;
+}
+
+.titulo{
+    font-size: 14px; 
+}
+
+.img>img{
+    padding-bottom:10px ;
+}
+
+.informacoes{
+    padding-bottom:10px ;
+}
+
+.video>h2{
+    padding: 5px 5px 5px 0;
+}
+
+.video>p{
+    padding: 5px 5px 5px 0;
+}
+
